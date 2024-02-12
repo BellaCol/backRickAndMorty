@@ -5,11 +5,14 @@
   "directories": {
     "test": "test"
   },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
     "dev": "node ./src/index.js --w"
   },
+  
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
